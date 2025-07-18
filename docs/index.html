@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Presentación</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(135deg, #74ebd5, #acb6e5);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      max-width: 400px;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 4px solid #74ebd5;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: 28px;
+    }
+
+    p {
+      margin: 5px 0 20px;
+      font-size: 16px;
+      color: #666;
+    }
+
+    .socials a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #74b9ff;
+      font-size: 20px;
+      transition: 0.3s;
+    }
+
+    .socials a:hover {
+      color: #0984e3;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="tu-foto.jpg" alt="Mi Foto" class="profile-pic">
+    <h1>Tu Nombre</h1>
+    <p>Desarrollador Web | Apasionado por la tecnología</p>
+    <div class="socials">
+      <a href="https://linkedin.com/in/tuusuario" target="_blank">LinkedIn</a>
+      <a href="https://github.com/tuusuario" target="_blank">GitHub</a>
+      <a href="mailto:tuemail@example.com">Email</a>
+    </div>
+  </div>
+</body>
+</html>
